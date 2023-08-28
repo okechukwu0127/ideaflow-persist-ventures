@@ -57,7 +57,7 @@ function MultipleTriggers({ value, data, onChange, onAdd }) {
         a11ySuggestionsListLabel={"Suggested mentions"}
       >
         <Mention
-          markup="@[__display__](user:__id__)"
+          markup="@[__display__]"
           trigger="@"
           data={data.data}
           renderSuggestion={(
